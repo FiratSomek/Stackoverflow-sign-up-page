@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: #f1f2f3;
+  margin: 0;
+  font-family: sans-serif;
+}
+.col1 {
+  width: 59%;
+  height: 100vh;
+  display: inline-block;
+  position: relative;
+}
+.col1-text {
+  border: none 1px solid;
+  text-align: left;
+  position: absolute;
+  right: 0;
+  top: 30vh;
+}
+.text-small {
+  font-size: 0.8rem;
+}
+.text-margin-top-small {
+  margin-bottom: 0px;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-top: 16px;
+}
+.col2 {
+  width: 40%;
+  height: 100vh;
+  overflow: none;
+  display: inline-block;
+}
+.button-container {
+  width: 300px;
+  padding-left: 10px;
+  position: absolute;
+  padding-top: 30px;
+}
+.link-margin {
+  color: #0074cc;
+  text-decoration: none;
+}
+a {
+  color: rgb(19, 19, 242);
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  height: 25px;
+  border-radius: 3px;
+}
+
+#facebook {
+  background-color: #385499;
+  color: #ffffff;
+}
+#google {
+  background-color: #ffffff;
+}
+#github {
+  color: #ffffff;
+  background-color: #2f3337;
+}
+.login {
+  border: none 1px solid;
+  background-color: #ffffff;
+  height: 70vh;
+  padding: 20px;
+  border-radius: 10px;
+}
+.input-name {
+  margin-bottom: 10px;
+}
+label {
+  color: black;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.text1 {
+  font-size: small;
+}
+.robot {
+  border: 1px rgb(255, 254, 254) solid;
+  width: 90%;
+  height: 18vh;
+  background-color: rgb(239, 235, 235);
+  padding: auto;
+  margin: auto;
+}
+.signupbtn {
+  background-color: #00a4f0;
+  color: #ffffff;
+  height: 35px;
+  border-radius: 5px;
+}
+.text-signup {
+  font-size: small;
+  font-family: sans-serif;
+}
+.checkbox {
+  font-size: small;
+}
+.last-text {
+  font-size: small;
+  text-align: center;
+}
