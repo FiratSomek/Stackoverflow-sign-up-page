@@ -1,11 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>lesson 4</title>
+    <link rel="stylesheet" href="lesson.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <div class="col1">
+        <div class="col1-text">
+          <h1>Join the Stack Overflow community</h1>
+          <ul>
+            <li>Get unstuck — ask a question</li>
+            <li>Unlock new privileges like voting and commentbing</li>
+            <li>Save your favorite tags, filters and jobs</li>
+            <li>Earn reputation and badges</li>
+          </ul>
+          <p class="text-small text-margin-top-small">
+            Collaborate and share knowledge with a private group for FREE.
+          </p>
+          <a class="text-small text-margin-top-small" href=""
+            >Get Stack Overflow for Teams free for up to 50 users</a
+          >
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="button-container">
+          <button id="google">
+            <i class="fa fa-google">Sign up with Google</i>
+          </button>
+          <button id="github">
+            <i class="fa fa-github">Sign up with Github</i>
+          </button>
+          <button id="facebook">
+            <i class="fa fa-facebook-official">Sign up with Facebook</i></button
+          ><br /><br />
+          <div class="login">
+            <form action="#">
+              <div>
+                <label for="text"><b>Display name</b></label>
+                <input type="text" id="text" name="text" size="30" required />
+                <br />
+                <label for="email"><b>Email</b></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  size="30"
+                  required
+                />
+                <br />
+                <label for="password"><b>Password</b></label>
+                <input
+                  type="password"
+                  id="password"
+                  name="password"
+                  size="30"
+                  required
+                />
+                <p class="text1">
+                  Passwords must contain at least eight characters, including at
+                  least 1 letter and 1 number.
+                </p>
+
+                <div class="robot"></div>
+                <input type="checkbox" id="checkbox" name="checkbox" />
+                <label for="checkbox" name="checkbox"
+                  >Opt-in to receive occasional product updates, user research
+                  invitations, company anouncements, and digests.</label
+                >
+                <button type="submit" class="signupbtn">Sign Up</button>
+                <p class="text-signup">
+                  By clicking "Sign Up", you agree to our
+                  <a>terms of service</a>, <a>privacy policy</a> and
+                  <a>cookie policy</a>
+                </p>
+              </div>
+            </form>
+          </div>
+          <div class="last-text">
+            <p>Already have an account? <a>Log in</a></p>
+            <p>Are you an employer? <a>Sign up on Talent</a></p>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
 </html>
